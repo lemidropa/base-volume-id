@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from 'react';
 import ReferralLinkCopy from '@/components/ReferralLinkCopy';
-import { useState, useEffect } from 'react';
 import { supabase } from '@/lib/supabaseClient';
 
 export default function SettingsPage() {
